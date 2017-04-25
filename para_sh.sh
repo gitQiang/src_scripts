@@ -15,7 +15,8 @@
 ###############################################################
 
 usage="
-<-t 1-2>* para_sh.sh -i <InputDirectory> -t <Type> -o <OutputName>
+<Demo>* para_sh.sh -i <InputDirectory> -t <Type> -o <OutputName>
+
      -i (required) - Path to directory containing fastq.gz files
      -t (required) - \"csv\" for comma \"tsv\" for tab seperate files
      -o (optional) - Output filename - if not provided the directory name will be used
