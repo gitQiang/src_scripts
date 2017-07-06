@@ -1,0 +1,8 @@
+#!/bin/bash
+
+## ${string/old/new}
+## sed 'string/old/new/g'
+line="[1] + running 1212  jupyter notebook &"
+tmp="${line/\[[0-9]\]/}"
+job=`echo $tmp | sed 's/[^0-9]*//g'`
+## job=1212
